@@ -56,11 +56,22 @@ body {
 
 h1{
 /*  font-family:'Carrois Gothic SC', sans-serif;
-*/  
-  font-family: "Rufina";
+*/
+  font-family: 'Fredericka the Great';
   text-align: center; 
-  font-size: 40px;
+  font-size: 50px;
+  padding:0;
 }
+
+
+h3{
+/*  font-family:'Carrois Gothic SC', sans-serif;
+*/
+  font-family: 'Fredericka the Great';
+  text-align: left; 
+  font-size: 20px;
+}
+
 .pages{
   float: center;  
   position:relative; 
@@ -78,6 +89,22 @@ h1{
   padding: 10px;
 }
 
+#skillset{
+  border:none;
+}
+
+#connect{
+  color:white;
+  font-family: 'The Girl Next Door', sans-serif;
+  float:left;
+  font-size: 12px; 
+  margin-left: 10px; 
+}
+
+tr{
+  padding:10px;
+  margin-right: 100px;
+}
 
 ul, li{
   list-style-type: none;
