@@ -1,39 +1,100 @@
-<!DOCTYPEhtml>
+<!DOCTYPE html>
 <html>
 <head>
-        <meta charset="UTF-8">
-        <title>Ann Millspaugh's Portfolio</title>
-
-        <!--##############CSS#############-->
-        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
-<!--         <link rel="stylesheet" href="stylesheets/foundation.css">
-        <link rel="stylesheet" href="stylesheets/style.css"> -->
-
-        <!--########Libraries#########-->
-        <script src="scripts/jquery.js"></script>
-        <script src="scripts/underscore.js"></script>
-        <script src="scripts/backbone.js"></script>
-        <script src="scripts/jquery.easing.1.3.js"></script>
-        <script src="scripts/handlebars.js"></script>
+  <title>Ann's Site</title>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Henny+Penny' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Exo+2:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Rufina:400,700' rel='stylesheet' type='text/css'>
 
 
-        <!--########Backbone links########-->
-        <script src="scripts/backbone/routers/Router.js"></script>
-        <script src="scripts/backbone/models/TopMenu.js"></script>
-        <script src="scripts/backbone/collections/TopMenuList.js"></script>
-        <script src="scripts/backbone/collections/TopMenuListView.js"></script>
-
-        <!--########My Script########-->
-         <script src="scripts/script.js"></script>
 </head>
 
 <body>
+<!-- BEGIN: Sticky Header -->
+  <div id="header-container">
+    <div id="header">
+      <div id='menu'>
+        <nav>
+          <ul>
+            <li class="nav"> <span id='home-button' class='menu-button'> About </span>  </li>
+            <li class="nav"><span id='projects-button' class='menu-button'>  Projects </span></li>
+            <li class="nav"><span id='skills-button' class='menu-button'> Skills </span>  </li>
+          </ul>
+        </nav>   
+      </div>
+    </div> 
+  </div> 
+<!-- END: Sticky Header -->
 
-<h1>Ann's Portfolio!!</h1> 
-      <script id="top-menu-view-template" type="text/x-handlebars-template">
-          <div id='{{title}}'>
-              <span>{{title}}</span>
+    <br style="clear:both;">
+
+<!-- BEGIN: Page Content -->
+<div id="container">
+    <div id="content">
+
+    <div id='pages'>
+        <h1><strong>An Overview of AM^2</strong></h1> 
+        <div id="descriptions">
+          <div id="about" class="page">
+            <h2>About Me</h2>
+            <img class="me" src="images/personalsitephoto.jpg" width=240 height=300> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent elementum venenatis leo a dictum. Suspendisse vulputate orci dui, dignissim fringilla tortor venenatis quis. Phasellus a sapien at dui commodo tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In vitae augue a lectus pellentesque adipiscing vel ac quam. Curabitur mi metus, tincidunt eget justo nec, vestibulum euismod leo. Nunc commodo mollis sem, et mattis tortor dapibus vitae. Nunc libero dui, interdum non arcu at, elementum pretium lacus. Cras eros est, viverra sed mauris vitae, mattis hendrerit dolor. Sed eu dapibus justo. Nam eu urna elit. Sed ante sem, volutpat vitae eros id, consequat euismod velit. Sed dignissim purus aliquet lacus volutpat lacinia. Integer sit amet purus in nisi pulvinar condimentum. Nam blandit justo eget dui eleifend lacinia. Nam erat magna, convallis id elementum a, auctor rhoncus est.
+
+Donec porta libero in massa lacinia, at dignissim nisl scelerisque. Curabitur eget turpis in augue accumsan fermentum vitae imperdiet lectus. Quisque ligula arcu, lacinia eu fringilla sed, ultrices id tellus. Donec tincidunt lectus risus, sed luctus eros egestas mollis. Aenean quis eleifend metus, eget ultricies tortor. Praesent eu leo sem. Integer vitae imperdiet eros. Pellentesque sit amet imperdiet orci. Suspendisse pellentesque libero id enim vehicula auctor.
+
+Quisque leo massa, adipiscing a condimentum tristique, viverra sit amet risus. Etiam ut ullamcorper erat. Nulla facilisi. Maecenas venenatis accumsan erat nec sollicitudin. In at pharetra lorem. Nullam sit amet viverra augue. Nunc volutpat ultricies sem. In dignissim massa vel vulputate ultrices. Donec sed quam faucibus, mollis ligula vel, egestas nisi. Vivamus sed facilisis dolor, sed rutrum arcu. Donec suscipit neque nisi, sed vulputate dolor adipiscing eget. Aliquam at nibh ac nunc bibendum mattis. Vestibulum et vulputate ipsum.
+
+Vestibulum diam libero, accumsan nec congue id, aliquam non neque. Aliquam sagittis nibh non dapibus iaculis. Suspendisse a fermentum nisi. Sed vulputate eleifend nunc ut facilisis. Praesent imperdiet libero in tellus placerat semper. Quisque quis turpis sit amet ipsum porta vulputate. Donec cursus dolor nisi. Integer sapien est, placerat vitae nunc ac, mollis condimentum orci. In ultricies justo eu nisl scelerisque, vitae lobortis dui venenatis. Suspendisse tempus sit amet diam at laoreet. Duis suscipit sollicitudin magna vel aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent non semper nulla, eget pretium mi.
+
+Donec auctor, turpis non posuere sollicitudin, dui leo tincidunt dui, sit amet sodales turpis nibh mattis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis venenatis porttitor tincidunt. Aenean ultrices odio non posuere iaculis. Nunc tristique nisi nec sem facilisis, consectetur bibendum massa dapibus. Nam eget vulputate dolor, non egestas felis. Pellentesque et dapibus massa. In sit amet purus in risus condimentum rutrum. Fusce ligula dui, tristique vitae gravida dapibus, facilisis eget risus. Nulla facilisi. Pellentesque et aliquam nisl. Suspendisse felis eros, ultrices sit amet aliquam ut, laoreet et lacus. Nunc et consectetur est. Sed lectus tortor, rutrum ac lectus ultricies, condimentum euismod nulla.</p>
+          </div> 
+
+          <div id="projects" class="page">
+            <h2>Projects</h2>
+            http://ga-radar.herokuapp.com/ 
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent elementum venenatis leo a dictum. Suspendisse vulputate orci dui, dignissim fringilla tortor venenatis quis. Phasellus a sapien at dui commodo tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In vitae augue a lectus pellentesque adipiscing vel ac quam. Curabitur mi metus, tincidunt eget justo nec, vestibulum euismod leo. Nunc commodo mollis sem, et mattis tortor dapibus vitae. Nunc libero dui, interdum non arcu at, elementum pretium lacus. Cras eros est, viverra sed mauris vitae, mattis hendrerit dolor. Sed eu dapibus justo. Nam eu urna elit. Sed ante sem, volutpat vitae eros id, consequat euismod velit. Sed dignissim purus aliquet lacus volutpat lacinia. Integer sit amet purus in nisi pulvinar condimentum. Nam blandit justo eget dui eleifend lacinia. Nam erat magna, convallis id elementum a, auctor rhoncus est.
+
+Donec porta libero in massa lacinia, at dignissim nisl scelerisque. Curabitur eget turpis in augue accumsan fermentum vitae imperdiet lectus. Quisque ligula arcu, lacinia eu fringilla sed, ultrices id tellus. Donec tincidunt lectus risus, sed luctus eros egestas mollis. Aenean quis eleifend metus, eget ultricies tortor. Praesent eu leo sem. Integer vitae imperdiet eros. Pellentesque sit amet imperdiet orci. Suspendisse pellentesque libero id enim vehicula auctor.
+
+Quisque leo massa, adipiscing a condimentum tristique, viverra sit amet risus. Etiam ut ullamcorper erat. Nulla facilisi. Maecenas venenatis accumsan erat nec sollicitudin. In at pharetra lorem. Nullam sit amet viverra augue. Nunc volutpat ultricies sem. In dignissim massa vel vulputate ultrices. Donec sed quam faucibus, mollis ligula vel, egestas nisi. Vivamus sed facilisis dolor, sed rutrum arcu. Donec suscipit neque nisi, sed vulputate dolor adipiscing eget. Aliquam at nibh ac nunc bibendum mattis. Vestibulum et vulputate ipsum.
+
+Vestibulum diam libero, accumsan nec congue id, aliquam non neque. Aliquam sagittis nibh non dapibus iaculis. Suspendisse a fermentum nisi. Sed vulputate eleifend nunc ut facilisis. Praesent imperdiet libero in tellus placerat semper. Quisque quis turpis sit amet ipsum porta vulputate. Donec cursus dolor nisi. Integer sapien est, placerat vitae nunc ac, mollis condimentum orci. In ultricies justo eu nisl scelerisque, vitae lobortis dui venenatis. Suspendisse tempus sit amet diam at laoreet. Duis suscipit sollicitudin magna vel aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent non semper nulla, eget pretium mi.
+
+Donec auctor, turpis non posuere sollicitudin, dui leo tincidunt dui, sit amet sodales turpis nibh mattis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis venenatis porttitor tincidunt. Aenean ultrices odio non posuere iaculis. Nunc tristique nisi nec sem facilisis, consectetur bibendum massa dapibus. Nam eget vulputate dolor, non egestas felis. Pellentesque et dapibus massa. In sit amet purus in risus condimentum rutrum. Fusce ligula dui, tristique vitae gravida dapibus, facilisis eget risus. Nulla facilisi. Pellentesque et aliquam nisl. Suspendisse felis eros, ultrices sit amet aliquam ut, laoreet et lacus. Nunc et consectetur est. Sed lectus tortor, rutrum ac lectus ultricies, condimentum euismod nulla.</p> 
+
           </div>
-      </script>
+
+          <div id="skills" class="page">
+            <h2>Skills</h2> 
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent elementum venenatis leo a dictum. Suspendisse vulputate orci dui, dignissim fringilla tortor venenatis quis. Phasellus a sapien at dui commodo tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In vitae augue a lectus pellentesque adipiscing vel ac quam. Curabitur mi metus, tincidunt eget justo nec, vestibulum euismod leo. Nunc commodo mollis sem, et mattis tortor dapibus vitae. Nunc libero dui, interdum non arcu at, elementum pretium lacus. Cras eros est, viverra sed mauris vitae, mattis hendrerit dolor. Sed eu dapibus justo. Nam eu urna elit. Sed ante sem, volutpat vitae eros id, consequat euismod velit. Sed dignissim purus aliquet lacus volutpat lacinia. Integer sit amet purus in nisi pulvinar condimentum. Nam blandit justo eget dui eleifend lacinia. Nam erat magna, convallis id elementum a, auctor rhoncus est.
+
+Donec porta libero in massa lacinia, at dignissim nisl scelerisque. Curabitur eget turpis in augue accumsan fermentum vitae imperdiet lectus. Quisque ligula arcu, lacinia eu fringilla sed, ultrices id tellus. Donec tincidunt lectus risus, sed luctus eros egestas mollis. Aenean quis eleifend metus, eget ultricies tortor. Praesent eu leo sem. Integer vitae imperdiet eros. Pellentesque sit amet imperdiet orci. Suspendisse pellentesque libero id enim vehicula auctor.
+
+Quisque leo massa, adipiscing a condimentum tristique, viverra sit amet risus. Etiam ut ullamcorper erat. Nulla facilisi. Maecenas venenatis accumsan erat nec sollicitudin. In at pharetra lorem. Nullam sit amet viverra augue. Nunc volutpat ultricies sem. In dignissim massa vel vulputate ultrices. Donec sed quam faucibus, mollis ligula vel, egestas nisi. Vivamus sed facilisis dolor, sed rutrum arcu. Donec suscipit neque nisi, sed vulputate dolor adipiscing eget. Aliquam at nibh ac nunc bibendum mattis. Vestibulum et vulputate ipsum.
+
+Vestibulum diam libero, accumsan nec congue id, aliquam non neque. Aliquam sagittis nibh non dapibus iaculis. Suspendisse a fermentum nisi. Sed vulputate eleifend nunc ut facilisis. Praesent imperdiet libero in tellus placerat semper. Quisque quis turpis sit amet ipsum porta vulputate. Donec cursus dolor nisi. Integer sapien est, placerat vitae nunc ac, mollis condimentum orci. In ultricies justo eu nisl scelerisque, vitae lobortis dui venenatis. Suspendisse tempus sit amet diam at laoreet. Duis suscipit sollicitudin magna vel aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent non semper nulla, eget pretium mi.
+
+Donec auctor, turpis non posuere sollicitudin, dui leo tincidunt dui, sit amet sodales turpis nibh mattis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis venenatis porttitor tincidunt. Aenean ultrices odio non posuere iaculis. Nunc tristique nisi nec sem facilisis, consectetur bibendum massa dapibus. Nam eget vulputate dolor, non egestas felis. Pellentesque et dapibus massa. In sit amet purus in risus condimentum rutrum. Fusce ligula dui, tristique vitae gravida dapibus, facilisis eget risus. Nulla facilisi. Pellentesque et aliquam nisl. Suspendisse felis eros, ultrices sit amet aliquam ut, laoreet et lacus. Nunc et consectetur est. Sed lectus tortor, rutrum ac lectus ultricies, condimentum euismod nulla.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- END: Page Content -->
+
+<!-- BEGIN: Sticky Footer -->
+<div id="footer_container">
+    <div id="footer">
+        <p>Footer Content</p> 
+    </div>
+</div>
+<!-- END: Sticky Footer -->
+
+  <script src="scripts/jquery.js"></script>
+  <script src="scripts/app.js"></script>
+
 </body>
-</html> 
+</html>
