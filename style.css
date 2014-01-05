@@ -69,7 +69,30 @@ h3{
 */
   font-family: 'Fredericka the Great';
   text-align: left; 
-  font-size: 20px;
+  font-size: 30px;
+}
+
+table {
+  padding-left: 10%;
+  text-align: left;
+}
+
+table td {
+  width: 200px;
+}
+
+table i {
+  padding-left: 0px;
+}
+
+i {
+  color: #56BFB4;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+i:hover {
+  opacity: 0.6;
 }
 
 .pages{
@@ -125,6 +148,7 @@ a {
 h2{
   font-family: 'The Girl Next Door', sans-serif;
   color:black;
+  font-size: 40px; 
 }
 
 nav {
@@ -139,6 +163,10 @@ nav li {
 
 nav ul {
   margin: 0;
+}
+
+p{
+  font-family:"sans-serif"; 
 }
 
 
