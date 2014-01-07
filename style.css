@@ -5,6 +5,7 @@ body {
   padding:0
 }
 
+/*STICKY HEADER*/
 #header-container{
   height: 60px;
   width: 100%;
@@ -13,13 +14,18 @@ body {
   position:fixed;
 }
 
+/*CENTER CONTENT*/
+
 #container { 
   margin:0 auto; 
   overflow:auto; 
   padding:80px 0; 
   width:940px; 
 }
+
 #content{}
+
+/*STICKY FOOTER*/
 
 #footer_container { 
   background-color: black;
@@ -33,6 +39,9 @@ body {
 
 #footer { line-height:60px; margin:0 auto; width:940px; text-align:center; }
 
+/*PAGE STYLING*/
+
+/*Photo of me*/
 .me{
   border-radius: 10px; 
 }
@@ -54,45 +63,25 @@ body {
   border-radius: 1em;
 }
 
+/*HEADERS*/
+
 h1{
-/*  font-family:'Carrois Gothic SC', sans-serif;
-*/
   font-family: 'Fredericka the Great';
   text-align: center; 
   font-size: 50px;
   padding:0;
 }
 
+h2{
+  font-family: 'The Girl Next Door', sans-serif;
+  color:black;
+  font-size: 40px; 
+}
 
 h3{
-/*  font-family:'Carrois Gothic SC', sans-serif;
-*/
   font-family: 'Fredericka the Great';
   text-align: left; 
   font-size: 30px;
-}
-
-table {
-  padding-left: 10%;
-  text-align: left;
-}
-
-table td {
-  width: 200px;
-}
-
-table i {
-  padding-left: 0px;
-}
-
-i {
-  color: #56BFB4;
-  padding-left: 20px;
-  cursor: pointer;
-}
-
-i:hover {
-  opacity: 0.6;
 }
 
 .pages{
@@ -122,6 +111,7 @@ i:hover {
   float:left;
   font-size: 12px; 
   margin-left: 10px; 
+  margin-right: 10px; 
 }
 
 tr{
@@ -140,15 +130,9 @@ li.nav:hover{
 }
 
 a {
-  color:orange;
+  color:#501B40;
   font-size:24px;
   text-decoration:none;
-}
-
-h2{
-  font-family: 'The Girl Next Door', sans-serif;
-  color:black;
-  font-size: 40px; 
 }
 
 nav {
