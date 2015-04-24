@@ -1,98 +1,244 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Ann's Site</title>
-  <link href='style.css' rel='stylesheet' type='text/css'>
-  <link href='normalize.css' rel='stylesheet' type='text/css'>
 
-  <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Henny+Penny' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Exo+2:400,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Rufina:400,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio Projects</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+   <!--  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
-<!-- BEGIN: Sticky Header -->
-  <div id="header-container">
-    <div id="header">
-      <div id='menu'>
-        <nav>
-          <ul>
-            <li class="nav"> <span id='home-button' class='menu-button'> About </span>  </li>
-            <li class="nav"><span id='projects-button' class='menu-button'>  Projects </span></li>
-            <li class="nav"><span id='skills-button' class='menu-button'> Skills </span>  </li>
-          </ul>
-        </nav>   
-      </div>
-    </div> 
-  </div> 
-<!-- END: Sticky Header -->
+<body id="page-top" class="index">
 
-    <br style="clear:both;">
-
-<!-- BEGIN: Page Content -->
-<div id="container">
-    <div id="content">
-
-    <div id='pages'>
-        <h1><strong>An Overview of A(M^2)</strong></h1> 
-        <div id="descriptions">
-          <div id="about" class="page">
-            <hr>
-            <h2>About Me</h2>
-            <img class="me" src="images/hand_photo.jpg" width=400 height=300> 
-            <p> I'm a <a href="http://github.com/millzpaugh">Fullstack Developer</a> housed in Brooklyn, ever-curious about the intersection of tech, politics, and the environment. As a side project junkie, I love identifying the social side of tech, incorporating technology into communities. That falls somewhere between <a href="http://columbiaheightscwn.net">wireless organizing</a>, open source advocacy, <a href="http://monitoryourfarm.tumblr.com">remote sensors</a> and <a href="http://listenlocalfirst.wordpress.com/author/millspaugh14/"> local music.</a></p>
-          </div> 
-
-          <div id="projects" class="page">
-            <hr>
-            <h2>Projects</h2>
-            <a href="http://obscure-badlands-3898.herokuapp.com/"><h3>Uncovering Student Debt</h3> 
-            <img src="images/studentdebtpsite2.png" width=300px height=200px></a> 
-                   <p>Wonder why everyone you know has student loans? This project is an interactive infographic that analyzes datasets from the Department of Education, overviewing the national student debt since 2002.</p> 
-
-            <a href="http://ga-radar.herokuapp.com/"><h3>Radar</h3> 
-            <img src="images/radarpsite.png" width=300px height=200px></a> 
-                   <p>If you're looking for a job (like most of General Assembly's Immersive students), there are probably days when you don't want to trek to the GA job board. This project digitizes opportunities within the GA community so students and employers can connect and collaborate outside of the office!  
-                  </p> 
-
-            <a href="millzpaugh.github.io/zee_weather/"><h3>What's the weather?</h3>
-            <img src="images/scarfweather.png" width=300px height=200px></a>
-                   <p> "Do you need a scarf today?" uses the Open Weather Map API, displaying the weather in an entertaining and interesting way.    
-                  </p> 
-          </div>
-
-          <div id="skills" class="page">
-            <hr>
-            <h2>Skills</h2> 
-              <div id='skills'>
-                <h3>Tech</h3>
-                 <p><strong>Tech track:</strong> Linux (Ubuntu and RedHat), Mac OS, Windows, Ruby on Rails, Sintra, Backbone.js, jQuery, jQuery UI, Git, PostgreSQL 8/9, MySQL, Wordpress, Drupal, SEO, Google Analytics, Rspec, TDD, BDD, Scrum, Agile, Pivotal Tracker, Basecamp</p> 
-                <h3>Topics & Hobbies</h3> 
-                <p><strong>Social side:</strong> community controlled communications, tech, government transparency, open data, internet affordability, remote sensing, movement building, outdoor exploration</p>
-                </div>
-              </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Projects & Places</a>
             </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in"><img src="img/ks.jpg" style="width=90%;height:100px"></div>
+                <div class="intro-heading">A Portfolio</div>
+                <a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 justify">
+               <p> I'm a Software Engineer housed in Washington, DC, ever-curious about the intersection of tech, politics, and the environment. I have a list of never-ending side projects and love identifying the community side of tech. That falls somewhere between open data, education, wireless organizing, smart farms, and local music.
+              </div>
           </div>
-</div>
-<!-- END: Page Content -->
+        </div>
+    </section>
 
-<!-- BEGIN: Sticky Footer -->
-<div id="footer_container">
-    <div id="footer">
-    </div>
-    <p id="connect">I'm always looking to collaborate!</p> 
-    <a href="https://twitter.com/annmillspaugh"><img src="images/twitter.png" width=16px height=16px></a> 
-    <a href="www.linkedin.com/in/annmillspaugh/"><img src="images/linkedin.png" width=16px height=16px></a> 
-    <a href="https://github.com/millzpaugh"><img src="images/githublogo.png" width=16px height=16px></a>
-</div>
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                    <h3 class="section-subheading text-muted">Digital Participation over Digital Consumption</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                    <a href="http://millzpaugh.github.io/hacdc_class/">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-bell fa-stack-1x fa-inverse"></i>
+                    </a>
+                    </span>
+                    <h4 class="service-heading">The Consilience Center</h4>
+                    <p class="text-muted justify">A low-cost, community-oriented introduction to frontend web development.</p>
+                </div>
 
-<!-- END: Sticky Footer -->
+                <div class="col-md-4">
+                    <a href="https://dept-of-edu.herokuapp.com/">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <h4 class="service-heading">Open Data</h4>
+                    <p class="text-muted justify">Django REST Framework API that exposes Title IV Student Loan & Grant Data.</p>
+                </div>
 
-  <script src="scripts/jquery.js"></script>
-  <script src="scripts/app.js"></script>
+                <div class="col-md-4">
+                    <a href="http://returning-citizen-live.elasticbeanstalk.com/app/index/">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-keyboard-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                    </a>
+                    <h4 class="service-heading">Returning Citizens</h4>
+                    <p class="text-muted justify">An Online Directory of Social Services Available to Returning Citizens in the DC Metro area.</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <a href="http://www.awesomefoundation.org/en/projects/12766-connecting-communities-through-wireless-networks">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-wifi fa-stack-1x fa-inverse"></i>
+                    </span>
+                    </a>
+                    <h4 class="service-heading">Community Wireless</h4>
+                    <p class="text-muted justify">Local mesh networks that leverage social relationships to improve everyone’s access to modern communications.</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="http://monitoryourfarm.tumblr.com">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                    </span>
+                    </a>
+                    <h4 class="service-heading">Smart Farms</h4>
+                    <p class="text-muted justify">An Arduino sensor network that monitors community farms.</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="http://millzpaugh.github.io/zee_weather/">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-sun-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                    </a>
+                    <h4 class="service-heading">Zee Weather</h4>
+                    <p class="text-muted justify">A funky weather app that lets you know whether or not to wear a scarf.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="connect" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Connect</h2>
+                </div>
+            </div>
+            <div class="row">
+                 <div class="col-lg-12 text-center">
+                    <div class="team-member">
+                        <img src="img/ks2.jpg" style="width:20%;height:20%;" class="img-responsive img-circle" alt="">
+                        <h4>I'm always looking to collaborate!</h4>
+                        <br>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/annmillspaugh"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://github.com/millzpaugh"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li><a href="http://www.linkedin.com/in/annmillspaugh/"><i class="fa fa-linkedin-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="http://katie-shulman.tumblr.com/">All artwork is by the wonderfully talented Katie Shulman</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
 
 </body>
+
 </html>
